@@ -1,0 +1,6 @@
+{
+  "name": "Dhurandhar",
+  "description": "An atmospheric music player featuring Dhurandhar typography with bloody red aesthetic and soft round controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
