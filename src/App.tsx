@@ -212,8 +212,8 @@ export default function App() {
         />
       </div>
 
-      {/* Main Center Stage: Poster Focus with Controller in Bottom Middle */}
-      <main className="relative z-20 flex-1 flex flex-col items-center justify-end w-full max-w-3xl mx-auto px-4 pb-6 sm:pb-10 space-y-3.5 sm:space-y-4">
+      {/* Main Center Stage: Poster Focus with Elevated Controller */}
+      <main className="relative z-20 flex-1 flex flex-col items-center justify-end w-full max-w-3xl mx-auto px-4 pb-28 sm:pb-36 space-y-4 sm:space-y-5">
         {/* Slideable Chapter / Edition Switcher ("Part One" <-> "The Revenge") */}
         <div className="w-full flex justify-center">
           <EditionSwitcher
@@ -222,7 +222,7 @@ export default function App() {
           />
         </div>
 
-        {/* Balanced Soft Round Music Player Card in Bottom Middle */}
+        {/* Balanced Soft Round Music Player Card */}
         <div className="w-full flex justify-center">
           <MusicPlayer
             currentTrack={{
